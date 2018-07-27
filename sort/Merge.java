@@ -13,7 +13,7 @@ public class Merge
   /**
    * Returns the sorted array
    */
-  public static int sort(int[] arr) {
+  public static int[] sort(int[] arr) {
 
   }
   
@@ -24,7 +24,16 @@ public class Merge
     
     // Your algorithm goes here!
     
-    System.out.println(sort(arr));
+    
+    // Test the sort
+    int[] newArr = sort(arr);
+    for (int i=0; i<newArr.length-1; i++) {
+      if (newArr[i] > newArr[i+1]) {
+        System.out.println("FAIL at index "+i);
+        return;
+      }
+    }
+    System.out.println("SUCCESS!");
   }
 
 }
