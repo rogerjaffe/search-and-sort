@@ -24,8 +24,13 @@ public class Binary
     int left, right, mid;
     
     // Your algorithm goes here!
-    
-    System.out.println("Return index is: "+search(arr, 82));
+    printResult(82, search(arr, 82) == 25);
+    printResult(49, search(arr, 49) == arr.length-1);
+    printResult(-4, search(arr, -4) == -1);
+  }
+  
+  public static void printResult(int target, boolean result) {
+    System.out.println("Search for "+target+": "+((result) ? "CORRECT" : "INCORRECT"));
   }
 
 }

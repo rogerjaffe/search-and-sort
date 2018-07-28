@@ -4,4 +4,6 @@ comment0.target=int\ search(int[],\ int)
 comment0.text=\n\ Returns\ the\ index\ of\ the\ target\ value,\ or\ -1\ if\ not\ found\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
-numComments=2
+comment2.params=target\ result
+comment2.target=void\ printResult(int,\ boolean)
+numComments=3
