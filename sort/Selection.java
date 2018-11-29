@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Quick
+public class Selection
 {
   
   /**
