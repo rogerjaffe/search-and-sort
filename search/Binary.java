@@ -14,6 +14,7 @@ public class Binary
    * Returns the index of the target value, or -1 if not found
    */
   public static int search(int[] arr, int target) {
+    // Your algorithm goes here!
 
   }
   
@@ -23,7 +24,6 @@ public class Binary
       73,54,51,25,33,20,52,79,97,70,54,63,49};
     int left, right, mid;
     
-    // Your algorithm goes here!
     printResult(82, search(arr, 82) == 25);
     printResult(49, search(arr, 49) == arr.length-1);
     printResult(-4, search(arr, -4) == -1);
