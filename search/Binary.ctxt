@@ -6,4 +6,6 @@ comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 comment2.params=target\ result
 comment2.target=void\ printResult(int,\ boolean)
-numComments=3
+comment3.params=target\ result
+comment3.target=void\ printResult(java.lang.String,\ boolean)
+numComments=4
